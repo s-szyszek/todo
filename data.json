@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Praca"
+    },
+    {
+      "id": 2,
+      "name": "Hobby"
+    },
+    {
+      "name": "Inne",
+      "id": 3
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "title": "Zadanie 1234",
+      "description": "Przygotowanie prezentacji na temat podnośników."
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "title": "Telefon do Katarzyny z gazowni",
+      "description": ""
+    }
+  ]
+}

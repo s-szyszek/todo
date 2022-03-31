@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+div.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  width: 20%;
+  text-align: right;
+  text-transform: lowercase;
+  margin: 0 16px;
+}
+
+label ~ * {
+  display: block;
+  width: 80%;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+}
+
+table {
+  margin: 16px auto;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+}
